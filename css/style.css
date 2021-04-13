@@ -5,6 +5,7 @@
   --dark-grey: #384c64;
   --light-grey: #e5e7eb;
 }
+
 body {
   font-family: 'Titillium Web', sans-serif;
   margin: 0px;
@@ -36,7 +37,7 @@ a{
   font-size: 1.2rem;
 }
 .container h1 {
-  font-size: 2.3rem;
+  font-size: 1.3rem;
 }
 
 .containercenter {
@@ -243,19 +244,22 @@ a{
   padding-top: 2rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .nav-pills {
-    padding: 0.2rem;
+    padding: 0.1rem;
   }
+  
 
   .blog-para {
-    margin: 2rem;
+    margin: 1rem;
   }
-
+  
+  
+  
   .hero-custom {
     width: 350px;
     display: block;
     margin: auto;
-    margin-top: 1rem;
+    margin-top:.5rem;
   }
 }
